@@ -1,0 +1,122 @@
+[
+    {
+        "id": "classics",
+        "name": "Classics",
+        "description": "Deze cocktails waren vroeger al een hit, neem bijvoorbeeld de Cosmopolitan, deze is erg bekend door de hit serie Sex and the City.",
+        "amount": 100,
+        "price": 750,
+        "content": [
+            "Manhattan",
+            "Cosmopolitan",
+            "Daiquiri",
+            "Vesper Martini",
+            "Mimosa",
+            "Dark and Stormy"
+        ]
+    },
+    {
+        "id": "tiki",
+        "name": "Tiki",
+        "description": "Deze cocktails zijn erg fruitig, kleurig en er zit veel rum in. Ze laten je denken aan ontspannen in een hangmatje liggen in de Caraïben, hier komt deze cocktailtrend dan ook vandaan.",
+        "amount": 100,
+        "price": 850,
+        "content": [
+            "Painkiller",
+            "Mai Tai",
+            "Pina Colada",
+            "Jungle Bird",
+            "Blue Kontiki"
+        ]
+    },
+    {
+        "id": "shooters",
+        "name": "Shooters",
+        "description": "Shots, shots, shots. Deze cocktails zijn ervoor om de avond lekker mee te starten, of te eindigen, voornamelijk zoet en zo op.",
+        "amount": 100,
+        "price": 250,
+        "content": [
+            "Tropic Thunder",
+            "Lemon Drop",
+            "Red Headed Slut",
+            "Kamikaze"
+        ]
+    },
+    {
+        "id": "summer",
+        "name": "Zomer",
+        "description": "Lekker zoet, fruitig en kleurig. Deze cocktails doen je al vrij snel denken aan een mooie zomerdag.",
+        "amount": 100,
+        "price": 500,
+        "content": [
+            "Vodka Sunrise",
+            "Tequila Sunrise",
+            "Caipirinha",
+            "Sex on the Beach",
+            "June Bug"
+        ]
+    },
+    {
+        "id": "winter",
+        "name": "Winter",
+        "description": "Deze cocktails warmen je letterlijk en figuurlijk op, ze laten je al snel aan de feestdagen denken. Maar maakt u zich geen zorgen, ze zijn in de zomer ook heel lekker.",
+        "amount": 100,
+        "price": 800,
+        "content": [
+            "Espresso Marnine",
+            "Screaming Orgasm",
+            "Whiskey Sour",
+            "Amaretto Sour",
+            "Mistletoe Margarita",
+            "Chili Cuban Cocktail"
+        ]
+    },
+    {
+        "id": "our-favorites",
+        "name": "Our favorites",
+        "description": "Dit pakket bestaat uit cocktails die wij zelf heel erg lekker en leuk vinden om te maken. Onze persoonlijke aanraders!",
+        "amount": 100,
+        "price": 700,
+        "content": [
+            "Amaretto Sour",
+            "Mistletoe Margarita",
+            "Dark and Stormy",
+            "Pina Colada",
+            "Frozen Strawberry Daiquiri",
+            "Mojito"
+        ]
+    },
+    {
+        "id": "mix",
+        "name": "Mix",
+        "description": "Een door u samen te stellen pakket, met cocktails uit de andere pakketten. Maximaal 1 cocktail uit elk pakket. U kiezen uit 2, 4 of 5 verschillende cocktails, met een minimum van 20 van dezelfde soort.",
+        "amount": 100,
+        "price": 600,
+        "content": []
+    },
+    {
+        "id": "small-parties",
+        "name": "Kleine feestjes",
+        "description": "Geeft u een klein of besloten feest? Maar u wil toch graag lekkere cocktails, dan is dat mogelijk met dit pakket. Het pakket bestaat uit 50 cocktails, hier kunt u twee cocktails kiezen. Wij komen dan voor 3 uur all inclusief bij u op locatie.",
+        "amount": 50,
+        "price": 400,
+        "content": [
+            "Pina Colada",
+            "June Bug",
+            "Sex on the Beach",
+            "Vodka Sunrise",
+            "Dark and Stormy"
+        ]
+    },
+    {
+        "id": "non-alcoholic",
+        "name": "Non-alcoholic",
+        "description": "Dit pakket bestaat uit lekkere alcoholvrije cocktails, die u lekker door kan drinken zonder consequenties.",
+        "amount": 100,
+        "price": 250,
+        "content": [
+            "Shirley Temple",
+            "The Placebo",
+            "A Little Thyme Off"
+        ]
+    }
+]

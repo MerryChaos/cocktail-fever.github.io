@@ -1,0 +1,27 @@
+@import 'v-calendar/dist/style.css';
+
+.vc-container {
+  border: 0px solid;
+}
+
+.vc-is-dark {
+  &.vc-container {
+    color: white;
+    background-color: theme(colors.zinc.800);
+    border-color: theme(colors.zinc.700);
+  }
+
+  & .vc-arrow {
+    &:hover {
+      background-color: theme(colors.zinc.700);
+    }
+  }
+  
+  & .vc-weekday {
+    color: theme(colors.zinc.300);
+  }
+
+  & .vc-day-content.is-disabled {
+    color: theme(colors.zinc.600);
+  }
+}

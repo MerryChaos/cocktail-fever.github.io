@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Classics",
+    "description": "Deze cocktails waren vroeger al een hit, neem bijvoorbeeld de Cosmopolitan, deze is erg bekend door de hit serie Sex and the City.",
+    "cocktails": [
+      {
+        "name": "Manhattan"
+      },
+      {
+        "name": "Cosmopolitan"
+      },
+      {
+        "name": "Daiquiri"
+      },
+      {
+        "name": "French 75"
+      },
+      {
+        "name": "Ramos Gin Fizz"
+      },
+      {
+        "name": "Vesper Martini"
+      },
+      {
+        "name": "Mimosa"
+      },
+      {
+        "name": "Dark and stormy"
+      }
+    ]
+  },
+  {
+    "name": "Tiki",
+    "description": "Deze cocktails zijn erg fruitig, kleurig en er zit veel rum in. Ze laten je denken aan ontspannen in een hangmatje liggen in de Caraïben, hier komt deze cocktailtrend dan ook vandaan.",
+    "cocktails": [
+      {
+        "name": "Painkiller"
+      },
+      {
+        "name": "Rum Runner"
+      },
+      {
+        "name": "Mai Tai"
+      },
+      {
+        "name": "Pina Colada"
+      },
+      {
+        "name": "Zombie"
+      },
+      {
+        "name": "Jungle Bird"
+      },
+      {
+        "name": "Blue Kontiki"
+      }
+    ]
+  },
+  {
+    "name": "Shooters",
+    "description": "Shots, shots, shots. Deze cocktails zijn ervoor om de avond lekker mee te starten, of te eindigen, voornamelijk zoet en zo op.",
+    "cocktails": [
+      {
+        "name": "Tropic Tunder"
+      },
+      {
+        "name": "Lemon Drop"
+      },
+      {
+        "name": "B52"
+      },
+      {
+        "name": "Red Headed Slut"
+      },
+      {
+        "name": "Kamikaze"
+      }
+    ]
+  },
+  {
+    "name": "Zomer",
+    "description": "Lekker zoet, fruitig en kleurig. Deze cocktails doen je al vrij snel denken aan een mooie zomerdag.",
+    "cocktails": [
+      {
+        "name": "Vodka Sunrise"
+      },
+      {
+        "name": "Tequila Sunrise"
+      },
+      {
+        "name": "Caipirinha"
+      },
+      {
+        "name": "Sex on the Beach"
+      },
+      {
+        "name": "Mojito"
+      },
+      {
+        "name": "Margarita"
+      },
+      {
+        "name": "Frozen Strawberry Daiquiri"
+      },
+      {
+        "name": "Frozen Mango Daiquiri"
+      },
+      {
+        "name": "Moscow Mule"
+      },
+      {
+        "name": "June Bug"
+      }
+    ]
+  },
+  {
+    "name": "Winter",
+    "description": "Deze cocktails warmen je letterlijk en figuurlijk op, ze laten je al snel aan de feestdagen denken. Maar maakt u zich geen zorgen, ze zijn in de zomer ook heel lekker.",
+    "cocktails": [
+      {
+        "name": "Espresso Martini"
+      },
+      {
+        "name": "Screaming Orgasm"
+      },
+      {
+        "name": "Whiskey Sour"
+      },
+      {
+        "name": "Amaretto Sour"
+      },
+      {
+        "name": "Mistletoe Margarita"
+      },
+      {
+        "name": "Chili Cuban Cocktail"
+      },
+      {
+        "name": "Eggnog"
+      }
+    ]
+  },
+  {
+    "name": "Non-Alcoholic",
+    "description": "Deze cocktails kunt u buiten de pakketten om bestellen, deze zijn allemaal €3 per stuk, met een minimum van 20 cocktails.",
+    "cocktails": [
+      {
+        "name": "Shirley Temple"
+      },
+      {
+        "name": "The Placebo"
+      },
+      {
+        "name": "A Little Thyme Off"
+      }
+    ]
+  }
+]
