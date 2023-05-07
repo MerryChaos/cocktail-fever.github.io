@@ -14,8 +14,13 @@
 			</ul>
 		</div>
 	</nav>
+	
 	<div class="mb-12" /> <!-- spacer -->
 	<PageContent>
+		<div class="flex items-center gap-2">
+			<icon name="mdi:leaf" class="text-green-600 text-2xl"></icon>
+			<span>Vegan option available</span>
+		</div>
 		<Cocktails />
 	</PageContent>
 </template>

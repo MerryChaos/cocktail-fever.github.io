@@ -6,7 +6,7 @@ export default defineNuxtConfig({
         'nuxt-icon'
     ],
     plugins: [
-        { src: '@/plugins/v-calendar.client.ts', ssr: false, mode: 'client' }
+        { src: '@/plugins/v-calendar.client.ts', mode: 'client' }
     ],
     headlessui: {
         prefix: 'Headless'

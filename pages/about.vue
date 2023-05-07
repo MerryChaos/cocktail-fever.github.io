@@ -8,7 +8,7 @@
 				<img
 					alt="Bart"				
 					class="block h-40 w-40 rounded-full object-cover object-center"
-					src="@/assets/over ons bart.jpg">
+					src="/images/over-ons-bart.jpg">
 				<h2 class="text-2xl text-center font-bold">Bart</h2>
 			</div>
 			<div class="flex-1 text-lg">
@@ -29,7 +29,7 @@
 				<img
 					alt="Sidney"				
 					class="block h-40 w-40 rounded-full object-cover object-center"
-					src="@/assets/over ons sidney.jpg">
+					src="/images/over-ons-sidney.jpg">
 				<h2 class="text-2xl text-center font-bold">Sidney</h2>
 			</div>
 			<div class="flex-1 text-lg">

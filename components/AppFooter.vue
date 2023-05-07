@@ -11,24 +11,24 @@
 			<div class="grid grid-cols-1 gap-8 sm:gap-8 sm:grid-cols-2">
 				<div>
 					<h6>Handige links</h6>
-					<p class="item">
+					<span class="item">
 						<a href="/deals" class="hover:underline">Pakketten</a>
-					</p>
-					<p class="item">
+					</span>
+					<span class="item">
 						<a href="/cocktails" class="hover:underline">Cocktails</a>
-					</p>
-					<p class="item">
+					</span>
+					<span class="item">
 						<a href="/workshops" class="hover:underline">Workshops</a>
-					</p>
-					<p class="item">
+					</span>
+					<span class="item">
 						<a href="/about" class="hover:underline">Over Ons</a>
-					</p>
-					<p class="item">
+					</span>
+					<span class="item">
 						<a href="/contact" class="hover:underline">Contact</a>
-					</p>
-					<p class="item">
+					</span>
+					<span class="item">
 						<a href="/contact#FAQ" class="hover:underline">FAQ</a>
-					</p>
+					</span>
 				</div>
 				<div>
 					<h6>Contact</h6>
@@ -44,6 +44,12 @@
 						<Icon name="mdi:instagram" size="24px" />
 						@cocktailfever
 					</a>
+					<span class="item">
+						KVK nummer: 90063376
+					</span>
+					<span class="item">
+						BTW-id: NL865199231B01
+					</span>
 				</div>
 			</div>
 		</div>

@@ -1,3 +1,4 @@
+import { defineNuxtPlugin } from 'nuxt/app';
 import VCalendar from 'v-calendar';
 import '@/assets/css/v-calendar.css';
 

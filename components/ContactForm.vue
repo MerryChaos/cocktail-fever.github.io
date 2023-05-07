@@ -7,21 +7,18 @@
 			<div class="w-full md:w-1/2 px-3">
 				<label class="uppercase" for="email">Email</label>
 				<input
-					:class="v$.email.$error ? 'border-2 border-red-500' : ''"
 					class="block w-full bg-zinc-900 rounded py-3 px-4 leading-tight"
 					v-model="formData.email"
 					required
 					id="email"
 					type="email"
 					placeholder="Email"
-					@input="v$.email.touch"
-					@blur="v$.email.touch"
 				/>
-				<div :class="v$.email.$error ? 'h-4' : 'h-5'" >
+				<!-- <div :class="v$.email.$error ? 'h-4' : 'h-5'" >
 					<span v-for="error in v$.email.$errors" :key="error.$uid" class="text-red-500 text-xs">
 						{{ error.$message }}
 					</span>
-				</div>
+				</div> -->
 			</div>
 			<div class="w-full md:w-1/2 px-3">
 				<label class="uppercase" for="name">Naam</label>
@@ -33,11 +30,11 @@
 					type="text"
 					placeholder="Naam"
 				/>
-				<div :class="v$.name.$error ? 'h-4' : 'h-5'" >
+				<!-- <div :class="v$.name.$error ? 'h-4' : 'h-5'" >
 					<span v-for="error in v$.name.$errors" :key="error.$uid" class="text-red-500 text-xs">
 						{{ error.$message }}
 					</span>
-				</div>
+				</div> -->
 			</div>
 		</div>
 		<div class="flex flex-wrap">
@@ -56,11 +53,11 @@
 						{{ option }}
 					</option>
 				</select>
-				<div :class="v$.subject.$error ? 'h-4' : 'h-5'" >
+				<!-- <div :class="v$.subject.$error ? 'h-4' : 'h-5'" >
 					<span v-for="error in v$.subject.$errors" :key="error.$uid" class="text-red-500 text-xs">
 						{{ error.$message }}
 					</span>
-				</div>
+				</div> -->
 			</div>
 		</div>
 		<div class="flex flex-wrap">
@@ -72,12 +69,12 @@
 					required
 					id="message"
 					placeholder="Bericht"
-				/>
-				<div :class="v$.message.$error ? 'h-4' : 'h-5'" >
+				></textarea>
+				<!-- <div :class="v$.message.$error ? 'h-4' : 'h-5'" >
 					<span v-for="error in v$.message.$errors" :key="error.$uid" class="text-red-500 text-xs">
 						{{ error.$message }}
 					</span>
-				</div>
+				</div> -->
 			</div>
 		</div>
 		<div class="px-3">
@@ -92,42 +89,46 @@
 </template>
 
 <script>
-import { reactive } from "vue";
 import { useVuelidate } from "@vuelidate/core";
 import { required, email } from "@vuelidate/validators";
-import { submitContactForm } from "@/services/email.service"
+import { submitContactForm } from "@/api"
 
 export default {
 	setup() {
-		const formData = reactive({
-			email: "",
-			name: "",
-			subject: "",
-			message: ""
-		})
+		const v$ = useVuelidate()
 
-		const rules = {
-			email: { required, email },
-			name: { required },
-			subject: { required },
-			message: { required },
-		}
-
-		const v$ = useVuelidate(formData, rules)
-
-		return { formData, v$ };
+		return { v$ };
 	},
 	data() {
 		return {
+			formData: {
+				email: "",
+				name: "",
+				subject: "",
+				message: "",
+			},
 			subjectOptions: ["Boeken", "Pakketten", "Workshops", "Allergieën", "Anders"],
 		};
+	},
+	validations() {
+		return {
+			formData: {
+				email: { required, email },
+				name: { required },
+				subject: { required },
+				message: { required },
+			}
+		}
 	},
 	methods: {
 		async sumbitForm() {
 			const result = await this.v$.$validate();
-			if (!result) return alert("error, form not submitted!");
+			if (!result) {
+				return alert("Niet alle velden zijn correct ingevuld.");
+			}
 
-			if (await submitContactForm(formData)) {
+			const success = await submitContactForm(this.formData);
+			if (success) {
 				return alert("Succes, bericht verstuurd!")
 			} else {
 				return alert("Bericht kon niet verzonden worden, probeer het later nog een keer.")

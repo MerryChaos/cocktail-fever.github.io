@@ -4,28 +4,36 @@
     "description": "Deze cocktails waren vroeger al een hit, neem bijvoorbeeld de Cosmopolitan, deze is erg bekend door de hit serie Sex and the City.",
     "cocktails": [
       {
-        "name": "Manhattan"
+        "name": "Manhattan",
+        "image": "manhattan.jpg"
       },
       {
-        "name": "Cosmopolitan"
+        "name": "Cosmopolitan",
+        "image": "cosmopolitan.jpg"
       },
       {
-        "name": "Daiquiri"
+        "name": "Daiquiri",
+        "image": "daiquiri.jpg"
       },
       {
-        "name": "French 75"
+        "name": "French 75",
+        "image": "french-75.jpg"
       },
       {
-        "name": "Ramos Gin Fizz"
+        "name": "Ramos Gin Fizz",
+        "image": "ramos-gin-fizz.jpg"
       },
       {
-        "name": "Vesper Martini"
+        "name": "Vesper Martini",
+        "image": "vesper-martini.jpg"
       },
       {
-        "name": "Mimosa"
+        "name": "Mimosa",
+        "image": "mimosa.jpg"
       },
       {
-        "name": "Dark and stormy"
+        "name": "Dark and stormy",
+        "image": "dark-and-stormy.jpg"
       }
     ]
   },
@@ -34,25 +42,32 @@
     "description": "Deze cocktails zijn erg fruitig, kleurig en er zit veel rum in. Ze laten je denken aan ontspannen in een hangmatje liggen in de Caraïben, hier komt deze cocktailtrend dan ook vandaan.",
     "cocktails": [
       {
-        "name": "Painkiller"
+        "name": "Painkiller",
+        "image": "painkiller.jpg"
       },
       {
-        "name": "Rum Runner"
+        "name": "Rum Runner",
+        "image": "rum-runner.jpg"
       },
       {
-        "name": "Mai Tai"
+        "name": "Mai Tai",
+        "image": "mai-tai.jpg"
       },
       {
-        "name": "Pina Colada"
+        "name": "Pina Colada",
+        "image": "pina-colada.jpg"
       },
       {
-        "name": "Zombie"
+        "name": "Zombie",
+        "image": "zombie-1934.jpg"
       },
       {
-        "name": "Jungle Bird"
+        "name": "Jungle Bird",
+        "image": "jungle-bird.jpg"
       },
       {
-        "name": "Blue Kontiki"
+        "name": "Blue Kontiki",
+        "image": "blue-kontiki.jpg"
       }
     ]
   },
@@ -61,19 +76,24 @@
     "description": "Shots, shots, shots. Deze cocktails zijn ervoor om de avond lekker mee te starten, of te eindigen, voornamelijk zoet en zo op.",
     "cocktails": [
       {
-        "name": "Tropic Tunder"
+        "name": "Tropic Tunder",
+        "image": "tropic-thunder.jpg"
       },
       {
-        "name": "Lemon Drop"
+        "name": "Lemon Drop",
+        "image": "lemon-drop.jpg"
       },
       {
-        "name": "B52"
+        "name": "B52",
+        "image": "b52-fire.jpg"
       },
       {
-        "name": "Red Headed Slut"
+        "name": "Red Headed Slut",
+        "image": "red-headed-slut.jpg"
       },
       {
-        "name": "Kamikaze"
+        "name": "Kamikaze",
+        "image": "kamikaze.jpg"
       }
     ]
   },
@@ -82,34 +102,44 @@
     "description": "Lekker zoet, fruitig en kleurig. Deze cocktails doen je al vrij snel denken aan een mooie zomerdag.",
     "cocktails": [
       {
-        "name": "Vodka Sunrise"
+        "name": "Vodka Sunrise",
+        "image": "vodka-sunrise.jpg"
       },
       {
-        "name": "Tequila Sunrise"
+        "name": "Tequila Sunrise",
+        "image": "tequila-sunrise.jpg"
       },
       {
-        "name": "Caipirinha"
+        "name": "Caipirinha",
+        "image": "caipirinha.jpg"
       },
       {
-        "name": "Sex on the Beach"
+        "name": "Sex on the Beach",
+        "image": "sex-on-the-beach.jpg"
       },
       {
-        "name": "Mojito"
+        "name": "Mojito",
+        "image": "mojito.jpg"
       },
       {
-        "name": "Margarita"
+        "name": "Margarita",
+        "image": "margarita.jpg"
       },
       {
-        "name": "Frozen Strawberry Daiquiri"
+        "name": "Frozen Strawberry Daiquiri",
+        "image": "frozen-strawberry-daiquiri.jpg"
       },
       {
-        "name": "Frozen Mango Daiquiri"
+        "name": "Frozen Mango Daiquiri",
+        "image": "frozen-mango-dairquiri.jpg"
       },
       {
-        "name": "Moscow Mule"
+        "name": "Moscow Mule",
+        "image": "moscow-mule.jpg"
       },
       {
-        "name": "June Bug"
+        "name": "June Bug",
+        "image": "june-bug.jpg"
       }
     ]
   },
@@ -118,25 +148,35 @@
     "description": "Deze cocktails warmen je letterlijk en figuurlijk op, ze laten je al snel aan de feestdagen denken. Maar maakt u zich geen zorgen, ze zijn in de zomer ook heel lekker.",
     "cocktails": [
       {
-        "name": "Espresso Martini"
+        "name": "Espresso Martini",
+        "image": "espresso-martini.jpg",
+        "vegan": "true"
       },
       {
-        "name": "Screaming Orgasm"
+        "name": "Screaming Orgasm",
+        "image": "screaming-orgasm.jpg"
       },
       {
-        "name": "Whiskey Sour"
+        "name": "Whiskey Sour",
+        "image": "whiskey-sour.jpg",
+        "vegan": "true"
       },
       {
-        "name": "Amaretto Sour"
+        "name": "Amaretto Sour",
+        "image": "amaretto-sour.jpg",
+        "vegan": "true"
       },
       {
-        "name": "Mistletoe Margarita"
+        "name": "Mistletoe Margarita",
+        "image": "mistletoe-margarita.jpg"
       },
       {
-        "name": "Chili Cuban Cocktail"
+        "name": "Chili Cuban Cocktail",
+        "image": "chili-cuban.jpg"
       },
       {
-        "name": "Eggnog"
+        "name": "Eggnog",
+        "image": "eggnog.jpg"
       }
     ]
   },
@@ -145,13 +185,16 @@
     "description": "Deze cocktails kunt u buiten de pakketten om bestellen, deze zijn allemaal €3 per stuk, met een minimum van 20 cocktails.",
     "cocktails": [
       {
-        "name": "Shirley Temple"
+        "name": "Shirley Temple",
+        "image": "shirley-temple.jpg"
       },
       {
-        "name": "The Placebo"
+        "name": "The Placebo",
+        "image": "the-placebo.jpg"
       },
       {
-        "name": "A Little Thyme Off"
+        "name": "A Little Thyme Off",
+        "image": "a-little-thyme-off.jpg"
       }
     ]
   }
