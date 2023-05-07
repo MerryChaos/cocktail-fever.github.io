@@ -2,20 +2,19 @@
 	<PageContent>
 		<PageTitle
 			title="Contact"
-			subtitle="Wilt u uw evenement op maat? Neem contact met ons op. Vul het contactformulier hieronder in of stuur een email met uw wensen en dan
+			subtitle="Wilt u uw evenement op maat? Neem contact met ons op. Stuur een email met uw wensen en dan
 				nemen wij zo snel mogelijk contact met u op om samen tot een overeenkomst te komen."
 		/>
-		<div id="contactform" class="mt-12">
+		<!-- <div id="contactform" class="mt-12">
 			<h4 class="mb-2">Contactformulier</h4>
 			<div
 				class="flex justify-center items-center max-md:flex-col-reverse w-full gap-4"
 			>
 				<ContactForm class="w-full" />
-				<!-- <VCalendar /> -->
 			</div>
-		</div>
+		</div> -->
 		<div class="mt-12">
-			<h4 class="mb-2">U kunt ons ook op de volgende manieren bereiken</h4>
+			<h4 class="mb-2">U kunt ons op de volgende manieren bereiken</h4>
 			<table>
 				<tr>
 					<td>Email:&nbsp;</td>

@@ -150,7 +150,7 @@
       {
         "name": "Espresso Martini",
         "image": "espresso-martini.jpg",
-        "vegan": "true"
+        "veganOption": "true"
       },
       {
         "name": "Screaming Orgasm",
@@ -159,12 +159,12 @@
       {
         "name": "Whiskey Sour",
         "image": "whiskey-sour.jpg",
-        "vegan": "true"
+        "veganOption": "true"
       },
       {
         "name": "Amaretto Sour",
         "image": "amaretto-sour.jpg",
-        "vegan": "true"
+        "veganOption": "true"
       },
       {
         "name": "Mistletoe Margarita",

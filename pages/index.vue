@@ -27,10 +27,9 @@
 		<DealHorizontalScroll class="mt-12" />
 		<div class="mt-12">
 			<p class="text-lg mb-4">
-				Wilt u uw evenement op maat? Neem contact met ons op. Maak gebruik van
-				ons contactformulier of stuur een email met uw wensen en dan nemen wij
-				zo snel mogelijk contact met u op om samen tot een overeenkomst te
-				komen.
+				Wilt u uw evenement op maat? Neem contact met ons op. Stuur ons een
+				email met uw wensen en dan nemen wij zo snel mogelijk contact met u op
+				om samen tot een overeenkomst te komen.
 			</p>
 			<div class="flex justify-center items-center">
 				<a

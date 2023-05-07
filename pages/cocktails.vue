@@ -19,7 +19,7 @@
 	<PageContent>
 		<div class="flex items-center gap-2">
 			<icon name="mdi:leaf" class="text-green-600 text-2xl"></icon>
-			<span>Vegan option available</span>
+			<span>Vegan optie beschikbaar</span>
 		</div>
 		<Cocktails />
 	</PageContent>
