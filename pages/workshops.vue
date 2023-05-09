@@ -3,8 +3,8 @@
 		<PageTitle title="Workshops" subtitle="Zoekt u een bedrijfsactiviteit? Of juist een activiteit om met vrienden
 					te doen? Dan is deze workshop iets voor u. Wij komen dan bij u op
 					locatie zodat u zelf aan de slag kunt gaan met de cocktails." />
-		<div class="mt-4">
-			<h4 class="mb-4">Hoe ziet onze workshop eruit?</h4>
+		<div class="mt-12">
+			<h4 class="mb-2">Hoe ziet onze workshop eruit?</h4>
 			<p>Tijdsduur: 3 uur</p>
 			<p>1 welkomstcocktail</p>
 			<p>4 cocktails die u zelf gaat maken</p>
@@ -21,20 +21,20 @@
 				cocktails
 			</p>
 		</div>
-		<div class="mt-4">
-			<h4>Personen</h4>
+		<div class="mt-12">
+			<h4 class="mb-2">Personen</h4>
 			<p>Minimum aantal personen: 10 personen</p>
 			<p>Maximum aantal personen: 30 personen</p>
 		</div>
-		<div class="mt-4">
-			<h4>Prijs</h4>
+		<div class="mt-12">
+			<h4 class="mb-2">Prijs</h4>
 			<p>
 				Per persoon betaalt u €40 euro. Wij zorgen dan dat alles voldoende
 				aanwezig is.
 			</p>
 		</div>
-		<div class="mt-4">
-			<h4>Inhoud van de workshop</h4>
+		<div class="mt-12">
+			<h4 class="mb-2">Inhoud van de workshop</h4>
 			<ul>
 				<li>
 					In het 1

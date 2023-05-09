@@ -27,11 +27,7 @@
     @apply text-xl
   }
 
-  h6 {
-    @apply text-lg
-  }
-
-  p {
+  body {
     @apply text-lg
   }
 }
