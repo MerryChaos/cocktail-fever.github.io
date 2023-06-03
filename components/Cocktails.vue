@@ -15,7 +15,7 @@
 					<div class="p-4">
 						<h4 class="font-fjalla text-center flex justify-center">
 							{{ cocktail.name }}
-							<icon v-if="cocktail?.vegan" name="mdi:leaf" class="text-green-600 ml-1"></icon>
+							<icon v-if="cocktail?.veganOption" name="mdi:leaf" class="text-green-600 ml-1"></icon>
 						</h4>						
 					</div>
 				</div>
