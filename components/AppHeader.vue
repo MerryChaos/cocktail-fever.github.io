@@ -4,7 +4,7 @@
 			<div>
 				<a class="flex items-center text-zinc-100" href="/">
 					<img
-						src="@/assets/icons/cocktail.svg"
+						src="@/assets/icons/cf_logo_color_no_bg.svg"
 						class="h-8 mr-3"
 						alt="Cocktail Fever Logo"
 					/>

@@ -4,7 +4,7 @@
 		<div class="md:flex md:justify-between p-4 sm:p-6 bg-zinc-800">
 			<div class="mb-6 md:mb-0">
 				<a href="/" class="flex items-center">
-					<img src="@/assets/icons/cocktail.svg" class="h-8 mr-3" alt="Cocktail Fever Logo" />
+					<img src="@/assets/icons/cf_logo_color_no_bg.svg" class="h-8 mr-3" alt="Cocktail Fever Logo" />
 					<span class="self-center text-2xl whitespace-nowrap font-fjalla text-gold-gradient">Cocktail Fever</span>
 				</a>
 			</div>
